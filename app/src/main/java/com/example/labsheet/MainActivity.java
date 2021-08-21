@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         if(player != null){
             player.release();
             player=null;
-            Toast.makeText(this,"MediaPlayer released",Toast.LENGTH_SHORT)
+            Toast.makeText(this,"MediaPlayer released",Toast.LENGTH_SHORT);
         }
     }
 
